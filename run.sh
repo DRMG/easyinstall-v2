@@ -13,7 +13,7 @@ read -p "" var1
 sh /etc/drmg/$var1.sh
 else
 echo "Old version installed. Auto-Updating now!"
-sleep 1
+sleep 3
 rm -r /etc/drmg
 wget https://raw.githubusercontent.com/DRMG/easyinstall-v2/main/install.sh
 sh install.sh
