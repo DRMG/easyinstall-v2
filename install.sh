@@ -20,5 +20,5 @@ wget https://drmg.github.io/nextcloud.sh -O nextcloud.sh -q
 wget https://drmg.github.io/mc.sh -O mc-server.sh -q
 #Get the starter
 cd /bin
-chmod -R 777 drmg
 wget https://raw.githubusercontent.com/DRMG/easyinstall-v2/main/runbash.sh -O drmg -q
+chmod -R 777 drmg
