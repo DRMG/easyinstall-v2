@@ -1,5 +1,5 @@
 #Vars
-currentversion=0.1
+currentversion=0.1A
 version=$(wget https://raw.githubusercontent.com/DRMG/easyinstall-v2/main/version.txt -q -O -)
 #VersionCheck
 if [ "$version" = "$currentversion" ]; then
