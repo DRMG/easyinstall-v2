@@ -18,3 +18,6 @@ wget https://drmg.github.io/mc.sh -O mc-server.sh -q
 cd /bin
 wget https://raw.githubusercontent.com/DRMG/easyinstall-v2/main/runbash.sh -O drmg -q
 chmod -R 777 drmg
+clear
+echo "Installed!"
+echo "Run the DRMG tool with the 'drmg' command or 'sh /etc/drmg/run.sh'"
