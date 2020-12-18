@@ -6,4 +6,7 @@ if [ "$version" = "$currentversion" ]; then
 echo "Newest version installed"
 else
 echo "Old version installed. Auto-Updating now!"
+rm -r /etc/drmg
+wget https://raw.githubusercontent.com/DRMG/easyinstall-v2/main/install.sh
+sh install.sh
 fi
