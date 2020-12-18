@@ -21,3 +21,4 @@ chmod -R 777 drmg
 clear
 echo "Installed!"
 echo "Run the DRMG tool with the 'drmg' command or 'sh /etc/drmg/run.sh'"
+rm install.sh
