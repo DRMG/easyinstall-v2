@@ -1,8 +1,10 @@
 #Vars
-$curver=0.1
-$version=$(wget https://raw.githubusercontent.com/DRMG/easyinstall-v2/main/version.txt -q -O -)
+curver=0.1
+version=$(wget https://raw.githubusercontent.com/DRMG/easyinstall-v2/main/version.txt -q -O -)
 #VersionCheck
 #Implement the software
+rm -r /etc/drmg
+clear
 mkdir /etc/drmg
 cd /etc/drmg
 #Get the tools
